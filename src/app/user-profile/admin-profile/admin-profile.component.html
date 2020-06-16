@@ -1,0 +1,70 @@
+<div class="card">
+  <div class="card-header card-header-info">
+    <h4 class="card-title">Add Item</h4>
+    <p class="card-category">Item adding to the System</p>
+  </div>
+  <div class="card-body">
+    <form>
+
+      <div class="row">
+
+
+        <div class="form-group col-md-6">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Item Type" type="text" [(ngModel)]="movie.item_type" name="itemType">
+          </mat-form-field>
+        </div>
+
+        <div class="form-group col-md-6">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Item Name" type="text" [(ngModel)]="movie.item_name" name="itemName">
+          </mat-form-field>
+        </div>
+
+
+
+        <div class="col-md-6">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Item Model" type="text" [(ngModel)]="movie.item_model" name="itemModel">
+          </mat-form-field>
+        </div>
+
+
+
+        <div class="col-md-6">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Item QR" type="text" [(ngModel)]="movie.item_qr" name="itemQr">
+          </mat-form-field>
+        </div>
+
+
+        <div class="col-md-6">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Item Status" type="text" [(ngModel)]="movie.item_status" name="itemStatus">
+          </mat-form-field>
+        </div>
+
+        <div class="col-md-6">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Item Capacity" type="text" [(ngModel)]="movie.item_capacity" name="itemCapacity">
+          </mat-form-field>
+        </div>
+
+        <div class="col-md-6">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Item Image" type="text" [(ngModel)]="movie.item_image" name="itemImage">
+          </mat-form-field>
+        </div>
+
+
+
+        
+
+        <button mat-raised-button type="submit" class="btn btn-info pull-right" (click)="cancel()">Clear</button>
+        <button mat-raised-button type="submit" class="btn btn-info pull-right" (click)="AddItem()">Add Item</button>
+        
+        <div class="clearfix"></div>
+      </div>
+    </form>
+  </div>
+</div>

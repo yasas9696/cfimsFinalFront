@@ -1,0 +1,8 @@
+.image1 {
+  width: 300px; /*width of your image*/
+  height: 150px; /*height of your image*/
+  background-image: url("assets/lankaHospital.jpg");
+  background-size: contain;
+  margin: 0; /* If you want no margin */
+  padding: 0; /*if your want to padding */
+}

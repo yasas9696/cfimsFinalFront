@@ -1,0 +1,21 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="card card-plain">
+            <div class="card-header card-header-success">
+
+                <ul>
+                    <li *ngFor="let item of recordArray">{{item["Movie.item_name"]}}</li>
+                </ul>
+              
+
+               
+            </div>
+            <mat-card-actions class="buttonContainer">
+                <a class="btn  btn-warn btn-round" width="50px" (click)="cancel()">Cancel</a>
+               
+               
+                </mat-card-actions>
+        </div>
+    </div>
+</div>
+            
